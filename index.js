@@ -1,9 +1,22 @@
 #!/usr/bin/env node
+//const clearConsole = require(`clear-any-console`);
 
-const clearConsole = require('clear-any-console');
+const pkgJSON = require("./package.json");
+const welcome = require("cli-welcome");
 
 // Clears the console.
-clearConsole();
+//clearConsole();
+
+welcome({
+	title: pkgJSON.name,
+//	tagLine: `xeal`,
+	description : pkgJSON.description,
+	bgColor: `#FADC00`,
+	color: `#000000`,
+	bold: true,
+	clear: true,
+	version: pkgJSON.version
+});
 
 console.log(`
 sandeep pulapaka
