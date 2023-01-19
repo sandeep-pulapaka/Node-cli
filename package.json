@@ -1,0 +1,11 @@
+{
+	"name": "xeal",
+	"version": "1.0.0",
+	"bin": {
+		"xeal": "index.js"
+	},
+	"dependencies": {
+		"clear-any-console": "^1.16.2",
+		"xeal": "^2.0.0"
+	}
+}
