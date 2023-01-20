@@ -13,5 +13,13 @@
 	"keywords": [
 		"xeal",
 		"works"
-	]
+	],
+	"license": "UNLICENSE",
+	"main": "index.js",
+	"repository": "sandeep7177/xeal",
+	"author": {
+		"name": "sandeep xeal",
+		"email": "sandeep.p6300@gmail.com",
+		"url": "https://github.com/sandeep-pulapaka/Node-cli"
+	}
 }
