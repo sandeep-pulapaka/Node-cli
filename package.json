@@ -1,6 +1,6 @@
 {
 	"name": "xeal",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": "Get to know Xeal via `npx xeal`",
 	"bin": {
 		"xeal": "index.js"
