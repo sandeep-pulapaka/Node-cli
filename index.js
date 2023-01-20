@@ -1,17 +1,15 @@
 #!/usr/bin/env node
-//const clearConsole = require(`clear-any-console`);
+import chalk from 'chalk';
 
 const pkgJSON = require("./package.json");
 const welcome = require("cli-welcome");
-const clearAnyConsole = require("clear-any-console");
+const log = console.log
+log(chalk.blue('Hello') + ' World' + chalk.red('!'));
 
-// Clears the console.
-//clearConsole();
-clearAnyConsole();
+ 
 
 welcome({
   title: pkgJSON.name,
-  //	tagLine: `xeal`,
   description: pkgJSON.description,
   bgColor: `#FADC00`,
   color: `#000000`,
@@ -20,7 +18,7 @@ welcome({
   version: pkgJSON.version,
 });
 
-console.log(`
+log(`
 sandeep pulapaka
 
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
