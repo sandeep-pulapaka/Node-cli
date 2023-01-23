@@ -1,26 +1,28 @@
 {
-	"name": "xeal",
-	"version": "1.0.4",
-	"description": "Get to know Xeal via `npx xeal`",
-	"bin": {
-		"xeal": "index.js"
-	},
-	"dependencies": {
-		"chalk": "^5.2.0",
-		"clear-any-console": "^1.16.2",
-		"cli-welcome": "^2.2.2",
-		"xeal": "^2.0.0"
-	},
-	"keywords": [
-		"xeal",
-		"works"
-	],
-	"license": "UNLICENSE",
-	"main": "index.js",
-	"repository": "sandeep7177/xeal",
-	"author": {
-		"name": "sandeep xeal",
-		"email": "sandeep.p6300@gmail.com",
-		"url": "https://github.com/sandeep-pulapaka/Node-cli"
-	}
+  "name": "xeal",
+  "version": "1.0.4",
+  "description": "Get to know Xeal via `npx xeal`",
+  "bin": {
+    "xeal": "index.js"
+  },
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "cli-check-node": "^1.3.4",
+    "cli-handle-unhandled": "^1.1.1",
+    "cli-welcome": "^2.2.2",
+    "xeal": "^2.0.0"
+  },
+  "keywords": [
+    "xeal",
+    "works"
+  ],
+  "license": "UNLICENSE",
+  "main": "index.js",
+  "repository": "sandeep7177/xeal",
+  "author": {
+    "name": "sandeep xeal",
+    "email": "sandeep.p6300@gmail.com",
+    "url": "https://github.com/sandeep-pulapaka/Node-cli"
+  },
+  "type": "module"
 }
